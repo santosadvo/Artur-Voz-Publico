@@ -1,0 +1,28 @@
+{
+  "nome": "Artur",
+  "versao": "1.0.0",
+  "servico": {
+    "endpoint": "https://texttospeech.googleapis.com/v1/text:synthesize",
+    "voz": "pt-BR-Chirp3-HD-Algenib",
+    "idioma": "pt-BR",
+    "velocidade": 1.25,
+    "formato": "MP3"
+  },
+  "reserva": {
+    "voz": "pt-BR-Wavenet-B",
+    "observacao": "Outra voz (WaveNet), com cota grátis maior. Use só quando a cota da principal acabar."
+  },
+  "cota_gratis_mensal": {
+    "pt-BR-Chirp3-HD-Algenib": 1000000,
+    "pt-BR-Wavenet-B": 4000000,
+    "unidade": "caracteres por mês de cobrança do Google (horário do Pacífico)",
+    "limite_seguro": 0.95,
+    "preco_acima_da_cota_usd_por_milhao": {
+      "Chirp 3 HD": 30,
+      "WaveNet": 4
+    },
+    "conferido_em": "2026-11-08",
+    "fonte": "https://cloud.google.com/text-to-speech/pricing"
+  },
+  "descricao": "Voz masculina em português do Brasil, natural, a 1,25x, gerada pelo Google Cloud Text-to-Speech dentro da cota grátis mensal."
+}
